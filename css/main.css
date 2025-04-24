@@ -1,4 +1,150 @@
 :is(*) {
     font-family: "Montserrat", sans-serif !important;
     font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+.logo > svg{
+    width: 140px;
+}
+ul{
+    list-style: none;
+    margin-left: 0px !important;
+}
+.hero{
+    background-image: url("../hydar-pics/hero-bg.svg");
+    width: 100%;
+    background-color: rgb(48, 44, 66);
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#navigation svg{
+    width: 140px;
+}
+.navigator > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    a{
+        text-decoration: none;
+    }
+}
+.nav-bar{
+    border: 1px solid white !important;
+    border-radius: 20px !important;
+}
+.nav-toggle{
+    border: none!important;
+    border-radius: 10px !important;
+    display: none;
+    width: 60px !important;
+}
+.nav-toggle svg{
+    width: 60px !important;
+}
+.hero-text{
+    width: 40%;
+}
+.hero-text h1 ,span{
+    font-size: 40px;
+}
+.hero-text span{
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(57deg, #c0b7e8, #8176af);
+    background-clip: text;
+    font-size: 2.875rem;
+}
+.hero-text p{
+    line-height: 2;
+}
+.hero-btn{
+    background-color: #1e0044;
+    background-image: linear-gradient(#8176af, #c0b7e8);
+    border: none !important;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+.hero-img{
+    width: 35%;
+}
+
+#main-content{
+    padding: 120px 30px;
+}
+.hero-info-text{
+    :is(p){
+        font-size: 13px;
+    }
+    :is(span){
+        font-size: 10px;
+    }
+}
+.hero-info{
+    width: 1000px !important;
+    margin-top: 110px !important;
+    background-image: radial-gradient(circle, #3a3456, #211e2e);
+    padding: 20px 50px !important;
+    border-radius: 50px !important;
+    font-size: 10px !important;
+}
+.border-line{
+    width: 1px !important;
+    height: 70px!important;
+    background-color: #c0b7e8;
+}
+.hero-info-ca{
+    height: 100px !important;
+}
+#about {
+    background-image: url("../hydar-pics/about-bg.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(48, 44, 66);
+}
+.about-f-svg{
+    width: 150px !important;
+    height: 60px !important;
+}
+.about-img{
+    margin-top: 100px;
+}
+.first-par{
+    margin-bottom: 160px;
+}
+.first-h1{
+    margin-bottom: 70px;
+}
+.about-img{
+    margin-top: 100px;
+    width:500px !important;
+}
+.about-btn{
+    background-image: linear-gradient(#8176af, #c0b7e8) !important;
+    background-color: #1e0044 !important;
+    border-radius: 30px !important;
+    padding: 15px 60px !important;
+}
+footer{
+    background-image: url("../hydar-pics/FOOTER-BG.svg");
+    background-position: 50% 87% !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(48, 44, 66);
+    padding-top: 150px;
+    overflow: hidden;
+}
+.about-btn2{
+    background-image: linear-gradient(#8176af, #c0b7e8) !important;
+    background-color: #1e0044 !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
 }
